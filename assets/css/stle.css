@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Readex Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.navbar .navbar-items {
+  padding: 16px 250px;
+  min-height: 70px;
+  background-color: #f0f4ff;
+}
+.navbar .navbar-items .navbar-items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items {
+  display: flex;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items li {
+  list-style-type: none;
+  margin: 4px 19px;
+  padding: 1px 7px;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items li a {
+  text-decoration: none;
+  color: #3a3e5e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-icon .navbar-list-items-icon-button {
+  padding: 1px 6px;
+  border: none;
+  background-color: #f0f4ff;
+  cursor: pointer;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-icon .navbar-list-items-icon-button i {
+  font-size: 30px;
+  color: white;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-container .navbar-list-items-logo img {
+  cursor: pointer;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-container .navbar-list-items-logo p a {
+  text-decoration: none;
+  color: #6870D1;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.navbar .navbar-items .navbar-items-container .navbar-list-items .navbar-list-items-container .navbar-list-items-logo p a:hover {
+  color: black;
+}
+
+.hero .hero-container {
+  background-color: #6870d1;
+}
+.hero .hero-container .hero-card .hero-card-container {
+  display: flex;
+  padding: 90px 300px;
+  justify-content: center;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data {
+  background-color: white;
+  border-radius: 0px 20px 20px 0px;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-img {
+  background-color: white;
+  padding: 90px 50px;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-img img {
+  border-radius: 15px;
+  width: 100%;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-content {
+  text-align: center;
+  padding: 180px 50px 0px 50px;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-content h1 {
+  font-size: 100px;
+  margin: 0px 0px 48px 0px;
+  font-weight: lighter;
+  color: #6870d1;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-content p {
+  font-size: 20px;
+  color: #e082c5;
+  margin: 0px 0px 24px 0px;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-buttons {
+  text-align: center;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-buttons .button-1 {
+  border: none;
+  background-color: #6870d1;
+  color: white;
+  font-weight: bolder;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-buttons .button-1:hover {
+  background-color: #0a58ca;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-buttons .button-2 {
+  background-color: #e082c5;
+}
+.hero .hero-container .hero-card .hero-card-container .hero-card-data .hero-card-data-buttons .button-2:hover {
+  background-color: #cf3da5;
+}
+
+.features .features-heading h1 {
+  margin: 0px 0px 72px 0px;
+  font-size: 60px;
+  font-weight: lighter;
+  color: #6870d1;
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+.features .features-card-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding: 0px 320px 50px 320px;
+}
+.features .features-card-container .features-card {
+  box-shadow: 0 10px 20px -15px rgba(0, 0, 0, 0.9);
+  background-color: #f0f4ff;
+  height: 310px;
+  border-radius: 25px;
+}
+.features .features-card-container .features-card .features-card-data {
+  width: 100%;
+  display: flex;
+  background-color: #6870D1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+  border-radius: 25px 25px 0px 0px;
+}
+.features .features-card-container .features-card .features-card-data .features-card-heading-steps {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.features .features-card-container .features-card .features-card-data .features-card-heading-steps .dots {
+  display: block;
+  background: white;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  opacity: 0.3;
+}
+.features .features-card-container .features-card .features-card-data .features-card-heading-steps .dots:nth-child(1) {
+  opacity: 1;
+}
+.features .features-card-container .features-card .features-card-data .features-card-heading-steps h3 {
+  font-size: 30px;
+  margin: 0px 16px 0px 0px;
+  color: white;
+  text-align: center;
+}
+.features .features-card-container .features-card .features-card-data-para {
+  background-color: #f0f4ff;
+}
+.features .features-card-container .features-card .features-card-data-para p {
+  color: #3a3e5e;
+  line-height: 1.25;
+  margin: 0px 0px 16px 0px;
+  padding: 30px 50px;
+  font-size: 20px;
+  background-color: #f0f4ff;
+}
+.features .features-card-container .features-card .features-card-data-bottom p {
+  margin: 0px 0px 16px 0px;
+  font-size: 48px;
+  color: #6870D1;
+  text-align: right;
+  padding-right: 40px;
+}
+.features .features-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0px;
+  align-items: center;
+}
+.features .features-bottom .features-bottom-data img {
+  width: 60px;
+}
+.features .features-bottom .features-bottom-data p {
+  font-size: 30px;
+  color: #6870D1;
+}
+.features .features-bottom .features-bottom-data .features-bottom-data-para-3 {
+  color: black;
+  font-size: 20px;
+}
+
+.appointment .appointment-section {
+  background-color: #6870d1;
+}
+.appointment .appointment-section .appointment-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 670px 0px 670px;
+}
+.appointment .appointment-section .appointment-container .appointment-container-data img {
+  width: 60px;
+}
+.appointment .appointment-section .appointment-container .appointment-container-data p {
+  margin: 0px 0px 24px 24px;
+  color: white;
+  font-size: 30px;
+}
+.appointment .appointment-section .appointment-button {
+  margin: 10px 10px 10px 16px;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  text-align: center;
+}
+.appointment .appointment-section .appointment-button .button {
+  font-size: 18px;
+  background-color: #3a3e5e;
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bolder;
+  opacity: 0.8;
+}
+.appointment .appointment-section .appointment-button .button:hover {
+  opacity: 1;
+}
+
+.appointment-img .section-appointment-img {
+  background-color: #f0f4ff;
+  text-align: center;
+  padding: 100px;
+}
+.appointment-img .section-appointment-img img {
+  border-radius: 15px;
+  width: 750px;
+}
+
+.refresh .section-refresh {
+  padding: 50px 0px;
+}
+.refresh .section-refresh .refresh-section-heading h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0px 0px 16px 0px;
+  color: #6870D1;
+  font-weight: lighter;
+}
+.refresh .section-refresh .refresh-sub-heading h6 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 0px 8px 0px;
+  color: #3a3e5e;
+}
+.refresh .section-refresh .card-1-to-6-container {
+  display: flex;
+  padding: 50px 0px;
+  gap: 50px;
+  justify-content: center;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 {
+  max-width: 360px;
+  border-radius: 15px;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-header {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  background-color: #6870D1;
+  padding: 21px 37px;
+  border-radius: 15px 15px 0px 0px;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-header .card-1-2-header-data img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid white;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-header .card-1-2-header-data h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: lighter;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-header .card-1-2-header-data a {
+  text-decoration: none;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-header .card-1-2-header-data a i {
+  color: white;
+  font-size: 36px;
+}
+.refresh .section-refresh .card-1-to-6-container .card-1-2-container .card-1-2 .card-1-2-content p {
+  background-color: #f0f4ff;
+  padding: 40px 48px;
+  color: #3a3e5e;
+  font-size: 20px;
+  margin: 0px 0px 16px 0px;
+  border-radius: 0px 0px 15px 15px;
+}
+.refresh .section-refresh .card-1-to-6-container .middle-card-section {
+  padding-top: 100px;
+}
+
+.network .network-section {
+  background-color: #f0f4ff;
+}
+.network .network-section .network-heading h1 {
+  margin: 0px 0px 72px 0px;
+  font-size: 60px;
+  color: #6870D1;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 50px;
+}
+.network .network-section .network-main-container {
+  display: flex;
+}
+
+/*# sourceMappingURL=stle.css.map */
